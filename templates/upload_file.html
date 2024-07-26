@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Financial Statement - Money Mentor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button onclick="location.href='{{ url_for('home') }}'">Home</button>
+        <button>Link 1</button>
+        <button>Link 2</button>
+        <button>Link 3</button>
+    </div>
+    <div class="content">
+        <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+        <h1>Upload Your Financial Statement</h1>
+        <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+            <div class="upload-area">
+                <p>Drag & Drop or Click to Upload</p>
+                <input type="file" id="fileInput" name="file" accept=".xls,.xlsx,.png,.jpg,.jpeg,.pdf">
+                <input type="submit" value="Upload">
+            </div>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
