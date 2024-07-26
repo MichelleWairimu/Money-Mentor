@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # Path to your Google Cloud service account key file
-SERVICE_ACCOUNT_PATH = r"C:\Users\Admin\Downloads\moneymentor-430519-153e7f808079.json"
+SERVICE_ACCOUNT_PATH = r"moneymentor-430519-153e7f808079.json"
 
 # Initialize Google Cloud Vision client
 credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_PATH)
