@@ -1,70 +1,99 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    display: flex;
-    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
-.sidebar {
-    width: 250px;
-    height: 100%;
-    background-color: #2e7d32;
-    position: fixed;
-    top: 0;
-    left: -250px;
-    transition: 0.3s;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+.container {
+    margin: 15% auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20%;
+    padding-left: 20%;
+    border: 2px solid;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%; /* Adjust width as needed */
+    box-sizing: border-box;
 }
 
-.sidebar button {
-    width: 100%;
-    padding: 15px;
-    border: none;
-    background: none;
-    color: white;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
+.home_link{
+    color: rgb(64, 2, 69);    
 }
-
-.sidebar button:hover {
-    background-color: #388e3c;
+.menu-icon {
+    font-size: 32px; /* Menu icon size */
+    padding-right: 10px; /* Slight padding on the right */
+    cursor: pointer; /* Cursor pointer on hover */
+    position: fixed; /* Fixed position */
+    top: 10px; /* Position from the top */
+    left: 10px; /* Position from the left */
+    z-index: 1001; /* Ensure it's on top */
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit color from parent */
 }
 
 .content {
-    flex: 1;
-    padding: 20px;
-    transition: margin-left 0.3s;
-    margin-left: 0;
-}
-
-.menu-icon {
-    font-size: 30px;
-    cursor: pointer;
-    display: inline-block;
-    margin-bottom: 10px;
+    padding: 20px; /* Padding inside content */
 }
 
 .upload-area {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-    padding: 50px;
-    border: 2px dashed #2e7d32;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+    margin-top: 50px; /* Space between title and upload area */
+    text-align: center; /* Center the text inside the upload area */
+    background-color: #f5ed00; /* Upload area background color */
+    color: #73ae61; /* Upload area text color */
+    padding: 10px; /* Padding inside the upload area */
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px; /* Rounded corners for the upload area */
+    display: inline-block; /* Shrink to fit content */
+}
+
+.upload-area input[type="file"] {
+    display: none; /* Hide the file input */
 }
 
 .upload-area p {
-    margin: 0;
-    font-size: 16px;
-    color: #757575;
+    cursor: pointer; /* Cursor pointer on hover */
 }
 
-#fileInput {
-    display: none;
+.upload-area input[type="submit"] {
+    display: block; /* Make it a block element */
+    width: 90%; /* Width of the button */
+    margin: 10px auto; /* Center horizontally and margin on top/bottom */
+    border: none; /* Remove default border */
+    background-color: #F5ED00; /* Button background color */
+    color: #1C3A13; /* Button text color */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor pointer on hover */
+    transition: transform 0.2s; /* Smooth transform transition */
+}
+
+.upload-area input[type="submit"]:active {
+    transform: scale(0.95); /* Small bounce effect on click */
+}
+
+.upload-area .upload-button {
+    display: block; /* Make it a block element */
+    width: 0%; /* Width of the button */
+    margin: 10px auto; /* Center horizontally and margin on top/bottom */
+    padding: 10px; /* Padding inside button */
+    border: none; /* Remove default border */
+    background-color: #F5ED00; /* Button background color */
+    color: #1C3A13; /* Button text color */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor pointer on hover */
+    transition: transform 0.2s; /* Smooth transform transition */
+}
+
+.upload-area .upload-button:active {
+    transform: scale(0.95); /* Small bounce effect on click */
+}
+
+/* Remove default link settings */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
 }
