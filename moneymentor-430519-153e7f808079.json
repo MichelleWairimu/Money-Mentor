@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "moneymentor-430519",
+  "private_key_id": "153e7f8080791aa4a49a2dee3e8b0f478d020bc8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCWAsudv9L/pYdO\n9uph/N65dGrStg5NmGYaGkTgFZ+EYerMXS0C8kUsfCoV78o8e0bBNor7rLtbFFgQ\nalv0zFQcWnNmt8TtbsL2PRWCKItlRn0PaOe4/LnnzdV8rh3uRXw4yqcq6A0305Be\nv2Wn4moSkM6W0s2Pw7N1qfBoxjN+PjtT2mHkjxEc5oDvZ7tQ+kruwVtn7mBKTxJL\noSAOGlnd3QRvOLjHYUaQj7sHqai8jJyx2dTBjIVFYvlR1wVi7WoJjoUyviWDwAQd\nipqCHBmHufYJQ22gBUkhe81VbnjK9WilRLIFTqG+zB72D4UgkcdXtnE1s1WmjBc/\nCpGq4M6tAgMBAAECggEABFbOXEtufKs6umOqrJeWOwJiuKJAJanGgkjHkefDi8kS\nnpivXZ9ztXFd/PEeW24sF235dTAuNy3jzOMWsoJaiHtr98j8WZXTmTBzzSZZFIkx\nGDSuRzaK4L6eceh4wH9NXuMrFLL49ugYC/WN/jOEDUdtAlsp9lebJZ3QcLy9mTrY\n4yEOTCY+3Z4A5oYtXRpmckR1z6KlvokjRHyCwIu1Fe51QnJlFsVGUulhqvh3wBNo\nvBmrVzRF+wEchQNn2ooJIpCk8WZC57hPJIwMgHTs6aoPbpgriI3l0W0S2gzl3ugG\nKnb2c8Y/ij+1DNDAXj6YzAE9nqk9G7kxyjTTRsOczQKBgQDUHKFRrzObJnpOBcqA\nSj7a7OOmUmvs9o3hpQNYJ5vCrZfQl/7ng92LUdMTMWZpUMt/xagGyiceeIeC7J/j\nJa7xfV1J9cDUnZtk1uGUso4Qkmyyu8+LpTqdyZz0v5KoE/AFNDOERjlQ167eC1fI\n36ksXgFQimLCQhvNsLx44WyNlwKBgQC1DLyKFMh8Je5bcd0qvPCGplF5psGCm4Y/\nPc50b14vQLemU5qSfZRrUYDAoz4QTpApjE2b+Mx1+k9ZqLPu4na9EbyHcVB2ZiL5\no/NKb29rgZ32MY1YC8tLU+D4H8Xy3NkJ+dmkN1vP3ir836u8kbcVVbaHXI7FxOjn\nMGks9syWWwKBgC3aDolQ3VABrliladP3uMSshr2SfaAY4CzR9fodfc9EpVfDM6gq\nWj7erkks2Z2UiJkTSjJFitVMasbDjgCVSc8MMZlmVYvgkhHnXZY+TvWIIZU1gjUG\nv7gSOCq0KujIfo8xbJ2AbK1sInH/c7eJmdFsdM5LS/QARHBfby6WVFf7AoGAONkQ\n8kJoWSMH3sq36U1+MKlUd+A2bq4qzvy3MLQvXKLzh1RE+q5XxgLHbLVVLYWdmo4l\naE4M1RaNh9eC+AU/x0okalrYKvUTElO6dqraz2TZlo4klXrOkI572y0O2J0jwRAk\nmH2RZImb8d7Ba+pNFHPfZk1Xvx1/C+iVfbrYrnUCgYAIX3YBI6+m4Gb2xL+FgXpI\nRYqSXEx9+yiy7Ngs3xCX9aZYG6XOiJoRU+nM8z63+OfqwQOJVh6SJgEw+xAQnhWL\n3LypA3SDNEkouwjtc5z91Y5dyiV3a33O3Mv8c0Teydk5oUff+opGdOOPYhOlcjqA\nyD9H/R+ahsnRpMeH+IPs0Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "moneymentor@moneymentor-430519.iam.gserviceaccount.com",
+  "client_id": "111759489660378397046",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/moneymentor%40moneymentor-430519.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
