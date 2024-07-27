@@ -11,3 +11,4 @@ PyMuPDF
 pdfminer.six
 matplotlib
 seaborn
+fpdf
